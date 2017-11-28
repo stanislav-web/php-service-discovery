@@ -1,0 +1,41 @@
+{
+  "name": "stanislav-web/php-service-discovery",
+  "description": "Service Discovery for microservices",
+  "keywords": [
+    "Service Discovery",
+    "PHP Service Discovery",
+    "Service Registry",
+    "PHP Service Registry",
+    "PHP Microservices"
+  ],
+  "type": "project",
+  "homepage": "https://github.com/stanislav-web/php-service-discovery",
+  "license": "GPL-v3.0",
+  "authors": [
+    {
+      "name": "Stanislav WEB",
+      "email": "stanisov@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/stanislav-web/"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/stanislav-web/php-service-discovery/issues",
+    "email": "stanisov@gmail.com"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPServiceDiscovery\\": "src/PHPServiceDiscovery/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.22",
+    "psr/log": "^1.0@dev",
+    "roave/security-advisories": "dev-master"
+  },
+  "config": {
+    "bin-dir": "./bin"
+  }
+}
